@@ -10,17 +10,37 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<GPP\>
+
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :q
-|2,0,1652789470,,"q"
-:wq
-|2,0,1652788874,,"wq"
+|2,0,1654234963,,"q"
 :q!
-|2,0,1652787024,,"q!"
+|2,0,1654230313,,"q!"
+:wq
+|2,0,1654158583,,"wq"
+:%w !pbcopy
+|2,0,1652871863,,"%w !pbcopy"
+:%y"+
+|2,0,1652871764,,"%y\"+"
+:%y*
+|2,0,1652871717,,"%y*"
+:%y+
+|2,0,1652871697,,"%y+"
 :w
-|2,0,1652770964,,"w"
+|2,0,1652867391,,"w"
 
 # Search String History (newest to oldest):
+? \<GPP\>
+|2,1,1654158293,,"\\<GPP\\>"
+? @$
+|2,1,1654158175,,"@$"
+? \<nclude\>
+|2,1,1653713074,,"\\<nclude\\>"
 
 # Expression History (newest to oldest):
 
@@ -30,264 +50,782 @@
 
 # Registers:
 ""0	LINE	0
-	                exit(EXIT_FAILURE);
-|3,1,0,1,1,0,1652788120,"                exit(EXIT_FAILURE);"
+	//#include<arpa/inet.h>
+|3,1,0,1,1,0,1654158175,"//#include<arpa/inet.h>"
 "1	LINE	0
-	                    //read from stdin and send to client
-|3,0,1,1,1,0,1652783092,"                    //read from stdin and send to client"
+	//#include<arpa/inet.h>
+|3,0,1,1,1,0,1654156578,"//#include<arpa/inet.h>"
 "2	LINE	0
-	            //child process
-|3,0,2,1,1,0,1652783016,"            //child process"
+	//#include<string.h>
+|3,0,2,1,1,0,1654156576,"//#include<string.h>"
 "3	LINE	0
-	                    //read from stdin and send to client
-|3,0,3,1,1,0,1652782979,"                    //read from stdin and send to client"
+	//#include<iostream>
+|3,0,3,1,1,0,1654156575,"//#include<iostream>"
 "4	LINE	0
-	            //parent process
-|3,0,4,1,1,0,1652782945,"            //parent process"
+	//#include<unistd.h>
+|3,0,4,1,1,0,1654156571,"//#include<unistd.h>"
 "5	LINE	0
-	        //close thedd socket
-|3,0,5,1,1,0,1652782806,"        //close thedd socket"
+			free(heights);
+|3,0,5,1,1,0,1654005168,"		free(heights);"
 "6	LINE	0
-	        //send message to the server
-|3,0,6,1,1,0,1652782767,"        //send message to the server"
+		weights[0]=0;
+|3,0,6,1,1,0,1654004770,"	weights[0]=0;"
 "7	LINE	0
-	        //print the message
-|3,0,7,1,1,0,1652782647,"        //print the message"
+	
+|3,0,7,1,1,0,1653971677,""
 "8	LINE	0
-	        //receive the message
-|3,0,8,1,1,0,1652782635,"        //receive the message"
+	SRC = src
+|3,0,8,1,1,0,1653971653,"SRC = src"
 "9	LINE	0
-	        //
-|3,0,9,1,1,0,1652782553,"        //"
+	BIN = bin
+|3,0,9,1,1,0,1653971653,"BIN = bin"
 "-	CHAR	0
-	 
-|3,0,36,0,1,0,1652779236," "
+	server
+|3,0,36,0,1,0,1653971619,"server"
 
 # File marks:
-'0  66  15  ~/may17/src/func.cpp
-|4,48,66,15,1652789470,"~/may17/src/func.cpp"
-'1  69  0  ~/may17/src/server.cpp
-|4,49,69,0,1652788874,"~/may17/src/server.cpp"
-'2  63  5  ~/may17/src/func.cpp
-|4,50,63,5,1652788607,"~/may17/src/func.cpp"
-'3  63  5  ~/may17/src/func.cpp
-|4,51,63,5,1652788607,"~/may17/src/func.cpp"
-'4  6  8  ~/may17/src/func.cpp
-|4,52,6,8,1652788337,"~/may17/src/func.cpp"
-'5  6  8  ~/may17/src/func.cpp
-|4,53,6,8,1652788337,"~/may17/src/func.cpp"
-'6  6  8  ~/may17/src/func.cpp
-|4,54,6,8,1652788337,"~/may17/src/func.cpp"
-'7  6  8  ~/may17/src/func.cpp
-|4,55,6,8,1652788337,"~/may17/src/func.cpp"
-'8  61  40  ~/may17/src/func.cpp
-|4,56,61,40,1652787824,"~/may17/src/func.cpp"
-'9  59  40  ~/may17/src/func.cpp
-|4,57,59,40,1652787824,"~/may17/src/func.cpp"
+'0  36  0  ~/sprint/src/server.cpp
+|4,48,36,0,1654237248,"~/sprint/src/server.cpp"
+'1  66  31  ~/sprint/src/serverMain.cpp
+|4,49,66,31,1654234963,"~/sprint/src/serverMain.cpp"
+'2  18  0  ~/sprint/basic.cpp
+|4,50,18,0,1654234923,"~/sprint/basic.cpp"
+'3  7  8  ~/sprint/src/clientMain.cpp
+|4,51,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+'4  10  12  ~/sprint/src/clientMain.cpp
+|4,52,10,12,1654230749,"~/sprint/src/clientMain.cpp"
+'5  10  12  ~/sprint/src/clientMain.cpp
+|4,53,10,12,1654230749,"~/sprint/src/clientMain.cpp"
+'6  17  28  ~/sprint/src/clientMain.cpp
+|4,54,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+'7  17  28  ~/sprint/src/clientMain.cpp
+|4,55,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+'8  17  28  ~/sprint/src/clientMain.cpp
+|4,56,17,28,1654230313,"~/sprint/src/clientMain.cpp"
+'9  17  28  ~/sprint/src/clientMain.cpp
+|4,57,17,28,1654230313,"~/sprint/src/clientMain.cpp"
 
 # Jumplist (newest first):
--'  66  15  ~/may17/src/func.cpp
-|4,39,66,15,1652789470,"~/may17/src/func.cpp"
--'  63  5  ~/may17/src/func.cpp
-|4,39,63,5,1652789388,"~/may17/src/func.cpp"
--'  69  0  ~/may17/src/server.cpp
-|4,39,69,0,1652788874,"~/may17/src/server.cpp"
--'  69  0  ~/may17/src/server.cpp
-|4,39,69,0,1652788874,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652788627,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652788627,"~/may17/src/server.cpp"
--'  63  5  ~/may17/src/func.cpp
-|4,39,63,5,1652788607,"~/may17/src/func.cpp"
--'  63  5  ~/may17/src/func.cpp
-|4,39,63,5,1652788607,"~/may17/src/func.cpp"
--'  6  8  ~/may17/src/func.cpp
-|4,39,6,8,1652788475,"~/may17/src/func.cpp"
--'  6  8  ~/may17/src/func.cpp
-|4,39,6,8,1652788475,"~/may17/src/func.cpp"
--'  6  8  ~/may17/src/func.cpp
-|4,39,6,8,1652788475,"~/may17/src/func.cpp"
--'  6  8  ~/may17/src/func.cpp
-|4,39,6,8,1652788337,"~/may17/src/func.cpp"
--'  6  8  ~/may17/src/func.cpp
-|4,39,6,8,1652788337,"~/may17/src/func.cpp"
--'  53  4  ~/may17/src/func.cpp
-|4,39,53,4,1652788220,"~/may17/src/func.cpp"
--'  53  4  ~/may17/src/func.cpp
-|4,39,53,4,1652788220,"~/may17/src/func.cpp"
--'  53  4  ~/may17/src/func.cpp
-|4,39,53,4,1652788220,"~/may17/src/func.cpp"
--'  53  4  ~/may17/src/func.cpp
-|4,39,53,4,1652788220,"~/may17/src/func.cpp"
--'  53  4  ~/may17/src/func.cpp
-|4,39,53,4,1652788220,"~/may17/src/func.cpp"
--'  39  1  ~/may17/src/func.cpp
-|4,39,39,1,1652788132,"~/may17/src/func.cpp"
--'  39  1  ~/may17/src/func.cpp
-|4,39,39,1,1652788132,"~/may17/src/func.cpp"
--'  39  1  ~/may17/src/func.cpp
-|4,39,39,1,1652788132,"~/may17/src/func.cpp"
--'  39  1  ~/may17/src/func.cpp
-|4,39,39,1,1652788132,"~/may17/src/func.cpp"
--'  39  1  ~/may17/src/func.cpp
-|4,39,39,1,1652788132,"~/may17/src/func.cpp"
--'  61  40  ~/may17/src/func.cpp
-|4,39,61,40,1652787851,"~/may17/src/func.cpp"
--'  61  40  ~/may17/src/func.cpp
-|4,39,61,40,1652787851,"~/may17/src/func.cpp"
--'  61  40  ~/may17/src/func.cpp
-|4,39,61,40,1652787851,"~/may17/src/func.cpp"
--'  61  40  ~/may17/src/func.cpp
-|4,39,61,40,1652787851,"~/may17/src/func.cpp"
--'  61  40  ~/may17/src/func.cpp
-|4,39,61,40,1652787851,"~/may17/src/func.cpp"
--'  59  40  ~/may17/src/func.cpp
-|4,39,59,40,1652787824,"~/may17/src/func.cpp"
--'  59  40  ~/may17/src/func.cpp
-|4,39,59,40,1652787824,"~/may17/src/func.cpp"
--'  59  40  ~/may17/src/func.cpp
-|4,39,59,40,1652787824,"~/may17/src/func.cpp"
--'  59  40  ~/may17/src/func.cpp
-|4,39,59,40,1652787824,"~/may17/src/func.cpp"
--'  59  40  ~/may17/src/func.cpp
-|4,39,59,40,1652787824,"~/may17/src/func.cpp"
--'  52  4  ~/may17/src/func.cpp
-|4,39,52,4,1652787779,"~/may17/src/func.cpp"
--'  52  4  ~/may17/src/func.cpp
-|4,39,52,4,1652787779,"~/may17/src/func.cpp"
--'  52  4  ~/may17/src/func.cpp
-|4,39,52,4,1652787779,"~/may17/src/func.cpp"
--'  52  4  ~/may17/src/func.cpp
-|4,39,52,4,1652787779,"~/may17/src/func.cpp"
--'  52  4  ~/may17/src/func.cpp
-|4,39,52,4,1652787779,"~/may17/src/func.cpp"
--'  59  13  ~/may17/src/func.cpp
-|4,39,59,13,1652787717,"~/may17/src/func.cpp"
--'  59  13  ~/may17/src/func.cpp
-|4,39,59,13,1652787717,"~/may17/src/func.cpp"
--'  59  35  ~/may17/src/func.cpp
-|4,39,59,35,1652787568,"~/may17/src/func.cpp"
--'  59  35  ~/may17/src/func.cpp
-|4,39,59,35,1652787568,"~/may17/src/func.cpp"
--'  1  13  ~/may17/src/func.cpp
-|4,39,1,13,1652787515,"~/may17/src/func.cpp"
--'  1  13  ~/may17/src/func.cpp
-|4,39,1,13,1652787515,"~/may17/src/func.cpp"
--'  1  13  ~/may17/src/func.cpp
-|4,39,1,13,1652787515,"~/may17/src/func.cpp"
--'  1  13  ~/may17/src/func.cpp
-|4,39,1,13,1652787515,"~/may17/src/func.cpp"
--'  1  13  ~/may17/src/func.cpp
-|4,39,1,13,1652787515,"~/may17/src/func.cpp"
--'  1  13  ~/may17/src/func.cpp
-|4,39,1,13,1652787515,"~/may17/src/func.cpp"
--'  1  13  ~/may17/src/func.cpp
-|4,39,1,13,1652787515,"~/may17/src/func.cpp"
--'  1  13  ~/may17/src/func.cpp
-|4,39,1,13,1652787515,"~/may17/src/func.cpp"
--'  1  13  ~/may17/src/func.cpp
-|4,39,1,13,1652787515,"~/may17/src/func.cpp"
--'  1  13  ~/may17/src/func.cpp
-|4,39,1,13,1652787515,"~/may17/src/func.cpp"
--'  1  13  ~/may17/src/func.cpp
-|4,39,1,13,1652787515,"~/may17/src/func.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
--'  6  20  ~/may17/src/server.cpp
-|4,39,6,20,1652787400,"~/may17/src/server.cpp"
+-'  36  0  ~/sprint/src/server.cpp
+|4,39,36,0,1654237248,"~/sprint/src/server.cpp"
+-'  17  0  ~/sprint/src/server.cpp
+|4,39,17,0,1654234969,"~/sprint/src/server.cpp"
+-'  66  31  ~/sprint/src/serverMain.cpp
+|4,39,66,31,1654234963,"~/sprint/src/serverMain.cpp"
+-'  66  31  ~/sprint/src/serverMain.cpp
+|4,39,66,31,1654234963,"~/sprint/src/serverMain.cpp"
+-'  18  0  ~/sprint/src/serverMain.cpp
+|4,39,18,0,1654234952,"~/sprint/src/serverMain.cpp"
+-'  18  0  ~/sprint/src/serverMain.cpp
+|4,39,18,0,1654234952,"~/sprint/src/serverMain.cpp"
+-'  18  0  ~/sprint/basic.cpp
+|4,39,18,0,1654234923,"~/sprint/basic.cpp"
+-'  18  0  ~/sprint/basic.cpp
+|4,39,18,0,1654234923,"~/sprint/basic.cpp"
+-'  18  0  ~/sprint/basic.cpp
+|4,39,18,0,1654234923,"~/sprint/basic.cpp"
+-'  18  0  ~/sprint/basic.cpp
+|4,39,18,0,1654234923,"~/sprint/basic.cpp"
+-'  35  0  ~/sprint/basic.cpp
+|4,39,35,0,1654234710,"~/sprint/basic.cpp"
+-'  35  0  ~/sprint/basic.cpp
+|4,39,35,0,1654234710,"~/sprint/basic.cpp"
+-'  35  0  ~/sprint/basic.cpp
+|4,39,35,0,1654234710,"~/sprint/basic.cpp"
+-'  35  0  ~/sprint/basic.cpp
+|4,39,35,0,1654234710,"~/sprint/basic.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
+-'  10  12  ~/sprint/src/clientMain.cpp
+|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
+-'  17  28  ~/sprint/src/clientMain.cpp
+|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+-'  14  11  ~/sprint/make/Makefile
+|4,39,14,11,1654158583,"~/sprint/make/Makefile"
 
 # History of marks within files (newest to oldest):
+
+> ~/sprint/src/server.cpp
+	*	1654234985	0
+	"	36	0
+	^	53	1
+	.	53	0
+	+	53	0
+
+> ~/sprint/src/serverMain.cpp
+	*	1654234961	0
+	"	66	31
+	^	87	1
+	.	87	0
+	+	73	16
+	+	71	0
+	+	74	5
+	+	75	0
+	+	81	1
+	+	82	0
+	+	87	0
+
+> ~/sprint/basic.cpp
+	*	1654234921	0
+	"	18	0
+	^	49	30
+	.	49	29
+	+	16	18
+	+	21	15
+	+	23	37
+	+	24	27
+	+	25	4
+	+	33	24
+	+	34	4
+	+	37	4
+	+	39	37
+	+	41	47
+	+	43	1
+	+	44	1
+	+	45	4
+	+	46	1
+	+	45	5
+	+	49	29
+	+	47	19
+	+	51	19
+	+	57	47
+	+	24	37
+	+	33	29
+	+	39	42
+	+	41	50
+	+	49	28
+	+	41	19
+	+	16	17
+	+	21	20
+	+	23	37
+	+	24	37
+	+	25	4
+	+	34	5
+	+	33	29
+	+	37	4
+	+	39	42
+	+	41	50
+	+	43	1
+	+	44	1
+	+	45	1
+	+	46	1
+	+	47	19
+	+	49	30
+	+	51	19
+	+	49	19
+	+	57	47
+	+	41	19
+	+	57	47
+	+	51	19
+	+	49	30
+	+	47	19
+	+	46	1
+	+	45	1
+	+	44	1
+	+	43	1
+	+	41	50
+	+	39	19
+	+	37	15
+	+	34	5
+	+	33	29
+	+	25	4
+	+	24	37
+	+	23	37
+	+	21	20
+	+	16	15
+	+	37	4
+	+	49	19
+	+	41	19
+	+	49	29
+
+> ~/sprint/src/clientMain.cpp
+	*	1654234400	0
+	"	7	8
+	^	17	29
+	.	11	37
+	+	27	0
+	+	2	0
+	+	7	98
+	+	9	36
+	+	11	37
+
+> ~/sprint/make/Makefile
+	*	1654158580	0
+	"	14	11
+	.	14	0
+	+	38	62
+	+	1	0
+	+	3	14
+	+	5	11
+	+	7	21
+	+	9	21
+	+	11	21
+	+	13	6
+	+	14	0
+
+> ..make/Makefile
+	*	1654158557	0
+	"	1	0
+
+> /make/Makefile
+	*	1654158249	0
+	"	1	0
+
+> /make
+	*	1654158204	0
+	"	1	0
+
+> ~/sprint/src/client.cpp
+	*	1654156477	0
+	"	24	0
+	^	53	1
+	.	53	0
+	+	53	0
+
+> ~/sprint/inc/server.h
+	*	1654146945	0
+	"	20	1
+	^	20	2
+	.	20	1
+	+	20	1
+
+> /inc/server.h
+	*	1654146866	0
+	"	1	0
+
+> /inc/server
+	*	1654146850	0
+	"	1	0
+
+> ~/sprint/inc/client.h
+	*	1654091850	0
+	"	18	1
+	^	18	2
+	.	18	1
+	+	18	1
+
+> ~/31052022/bad_mem.c
+	*	1654005601	0
+	"	43	17
+	^	43	18
+	.	43	17
+	+	52	1
+	+	53	1
+	+	54	1
+	+	52	2
+	+	53	2
+	+	54	2
+	+	7	51
+	+	52	1
+	+	23	13
+	+	25	0
+	+	53	1
+	+	32	13
+	+	37	14
+	+	36	0
+	+	54	1
+	+	43	17
+
+> ~/sprint/Makefile
+	*	1653998051	0
+	"	7	8
+	^	7	9
+	.	7	8
+	+	19	78
+	+	16	0
+	+	17	0
+	+	20	0
+	+	12	0
+	+	13	0
+	+	16	0
+	+	17	0
+	+	20	0
+	+	6	8
+	+	7	8
+	+	19	12
+	+	6	6
+	+	7	6
+	+	19	0
+	+	18	0
+	+	6	0
+	+	18	0
+	+	4	8
+	+	5	8
+	+	6	8
+	+	7	8
+	+	4	6
+	+	5	6
+	+	6	6
+	+	7	6
+	+	4	8
+	+	5	8
+	+	6	8
+	+	7	8
+
+> ~/unitTest/test_unit.cpp
+	*	1653920216	0
+	"	6	28
+	^	6	29
+	.	6	28
+	+	11	1
+	+	1	1
+	+	9	19
+	+	6	28
+
+> ~/unitTest/Makefile
+	*	1653919131	0
+	"	13	10
+	^	7	48
+	.	7	47
+	+	13	29
+	+	7	47
+
+> ~/unitTest/main.cpp
+	*	1653918866	0
+	"	8	0
+	^	8	1
+	.	8	0
+	+	8	0
+
+> ~/unitTest/util.cpp
+	*	1653916949	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	2	10
+	+	1	1
+	+	5	0
+
+> ~/unitTest/util.hpp
+	*	1653916773	0
+	"	2	16
+	^	2	17
+	.	2	16
+	+	2	16
+
+> ~/sprint/data/users
+	*	1653887676	0
+	"	5	12
+	^	5	13
+	.	5	12
+	+	5	12
+
+> ~/sprint/server.cpp
+	*	1653885432	0
+	"	23	0
+	^	23	1
+	.	23	0
+	+	23	0
+
+> ~/sprint/serverMain.cpp
+	*	1653885208	0
+	"	73	11
+	^	73	12
+	.	73	11
+	+	73	11
+
+> ~/sprint/client.cpp
+	*	1653884799	0
+	"	43	0
+	^	43	1
+	.	43	0
+	+	43	0
+
+> ~/sprint/clientMain.cpp
+	*	1653884551	0
+	"	8	9
+	^	8	10
+	.	29	11
+	+	29	11
+	+	7	18
+	+	8	0
+	+	9	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	15	41
+	+	16	3
+	+	18	16
+	+	19	16
+	+	20	0
+	+	20	16
+	+	20	54
+	+	22	16
+	+	22	62
+	+	24	3
+	+	21	0
+	+	22	25
+	+	23	0
+	+	24	3
+	+	24	4
+	+	25	3
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	11
+
+> ~/sprint/client.h
+	*	1653883636	0
+	"	14	1
+	.	2	0
+	+	13	22
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	7	36
+	+	2	2
+	+	2	15
+	+	3	11
+	+	5	2
+	+	6	2
+	+	7	2
+	+	7	32
+	+	9	2
+	+	10	1
+	+	11	1
+	+	12	1
+	+	13	1
+	+	14	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	11
+	+	6	11
+	+	7	11
+	+	8	0
+	+	9	15
+	+	10	10
+	+	11	10
+	+	12	10
+	+	13	10
+	+	2	0
+
+> ~/sprint/server.h
+	*	1653883329	0
+	"	11	0
+	.	12	0
+	+	10	35
+	+	1	0
+	+	2	2
+	+	3	2
+	+	4	2
+	+	5	2
+	+	6	2
+	+	7	2
+	+	8	2
+	+	9	2
+	+	10	1
+	+	11	0
+	+	10	10
+	+	2	0
+	+	12	0
+
+> ~/may28/overload.cpp
+	*	1653733645	0
+	"	7	2
+	.	7	2
+	+	1	19
+	+	3	0
+	+	7	0
+	+	6	10
+	+	7	0
+	+	7	2
+
+> ~/may28/null.cpp
+	*	1653717845	0
+	"	14	0
+	^	14	1
+	.	14	0
+	+	7	0
+	+	14	0
+
+> ~/file.cpp
+	*	1653713433	0
+	"	8	9
+	^	8	10
+	.	8	9
+	+	2	9
+	+	1	1
+	+	10	13
+	+	14	0
+	+	8	9
+
+> ~/may28.cpp
+	*	1653712355	0
+	"	1	0
+
+> ~/may28
+	*	1653712278	0
+	"	1	0
+
+> ~/may18/prog.cpp
+	*	1652930485	0
+	"	78	8
+	^	84	1
+	.	66	41
+	+	2	19
+	+	13	24
+	+	10	38
+	+	12	14
+	+	12	23
+	+	13	21
+	+	12	13
+	+	8	0
+	+	17	0
+	+	8	20
+	+	25	27
+	+	17	9
+	+	18	36
+	+	23	19
+	+	25	24
+	+	26	0
+	+	3	16
+	+	17	0
+	+	17	1
+	+	12	7
+	+	17	0
+	+	13	12
+	+	18	2
+	+	13	9
+	+	20	5
+	+	13	12
+	+	18	5
+	+	20	5
+	+	13	18
+	+	14	17
+	+	15	19
+	+	19	13
+	+	23	0
+	+	12	1
+	+	13	1
+	+	14	1
+	+	15	19
+	+	16	0
+	+	23	2
+	+	17	30
+	+	22	9
+	+	21	23
+	+	22	21
+	+	87	16
+	+	84	27
+	+	32	44
+	+	88	0
+	+	24	16
+	+	70	32
+	+	67	31
+	+	50	59
+	+	48	36
+	+	44	40
+	+	42	39
+	+	41	33
+	+	40	32
+	+	17	7
+	+	7	19
+	+	59	35
+	+	36	64
+	+	84	28
+	+	73	21
+	+	55	59
+	+	14	2
+	+	15	2
+	+	19	3
+	+	20	3
+	+	14	8
+	+	15	8
+	+	88	2
+	+	1	0
+	+	88	1
+	+	10	2
+	+	11	2
+	+	13	42
+	+	28	49
+	+	36	32
+	+	37	33
+	+	38	39
+	+	40	40
+	+	44	54
+	+	46	69
+	+	63	42
+	+	66	41
+
+> ~/may18/data
+	*	1652867709	0
+	"	1	0
 
 > ~/may17/src/func.cpp
 	*	1652789466	0

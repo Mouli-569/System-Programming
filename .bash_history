@@ -730,3 +730,626 @@ git config --global user.email "pranath.pudi@gmail.com"
 git config --global user.name "Mouli-569"
 git branch -M main
 git remote add origin link "https://github.com/Mouli-569/System-Programming.git"
+history
+clear
+ls
+cd System-Programming
+ls
+git push
+clear
+git commit -m "First Commit"
+git add.
+ls
+mv may12 ../
+mv may13 ../
+mv may14 ../
+mv may17 ../
+ls
+cd
+ls
+rm System-Programming
+rmdir System-Programming
+ls
+rm -r System-Programming
+clear
+ls
+cd System-Programming
+ls-l
+ls-a
+ls
+cd
+rmdir -r System-Programming
+rm -r System-Programming
+y
+ls
+clear
+ls
+git clone "https://github.com/Mouli-569/System-Programming.git"
+ls
+rm -r System-Programming
+ls
+git init
+git add .
+git config --global user.email "pranath.pudi@gmail.com"
+git config --global user.name "Mouli-569"
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Mouli-569/system-programming.git
+git push -u origin main
+mkdir may18
+cd may18
+cp /tmp/data .
+ls
+touch prog.cpp
+ls
+vi prog.cpp
+cd may18
+ls
+vi prog.cpp
+rm .*.swp
+vi prog.cpp
+vi data
+vi prog.cpp
+cd may18
+vi prog.cpp
+cd may18
+cat prog.cpp/may18
+cat prog.cpp /may18
+cat prog.cpp/may18clear
+clear
+[200~ vector<User> psu;
+clear
+cd may18
+ls
+g++ program.cpp
+clear
+g++ prog.cpp
+vi prog.cpp
+cd may18
+ls
+vi prog.cpp
+rm .*.swp
+g++ prog.cpp
+vi prog.cpp
+clear
+ls
+vi may28
+ls
+vi may28.cpp
+clear
+ls
+vi file.cpp
+g++ -wall -fprofile-arcs -ftest-coverage file.cpp
+g++ -Wall -fprofile-arcs -ftest-coverage file.cpp
+vi file.cpp
+g++ -Wall -fprofile-arcs -ftest-coverage file.cpp
+ls
+./a.out
+gcov file.cpp
+cat file.cpp.gcov
+clear
+gdb
+clear
+mkdir may 28
+ls
+rmdir may
+mv 28 may28
+ls
+cd may28
+vi null.cpp
+g++ Wall -g null.cpp
+ls
+g++ -Wall -g null.cpp
+./a.out
+ulimit
+ulimit unlimited
+./a.out
+ulimit -c unlimited
+./a.out
+ls
+cd ..
+ls
+rm may28A
+mv a.out file.cpp.gcov file.gcno file.cpp file.gcda /may28A
+mv a.out file.cpp.gcov file.gcno file.cpp file.gcda ./may28A
+mv a.out file.cpp.gcov file.gcno file.cpp file.gcda ../may28A
+clear
+ls
+mv a.out may28A
+mv file.cpp.gcov may28A
+mv file.cpp may28A
+mv file.gcno may28A
+mv file.gcda may28A
+ls
+clear
+ls
+cd may28
+vi overload.cpp
+clear
+ld
+ls
+mkdir sprint
+cd sprint
+ls
+vi client.h
+vi server.h
+vi client.h
+vi server.h
+vi client.h
+vi clientMain.cpp
+vi client.cpp
+cd sprint
+ls
+vi serverMain.cpp
+vi server.cpp
+vi Makefile
+ls
+mkdir bin
+mkdir inc
+ls
+mv client.h inc
+mv server.h inc
+mkdir obj
+mkdir src
+mv client.cpp src
+mv clientMain.cpp src
+mv serverMain.cpp src
+mv server.cpp src
+ls
+cd src
+g++ -o client client.cpp
+clear
+cd ..
+ls
+make
+vi Makefile
+make
+cd src
+ls
+vi serverMain.cpp
+cd src
+clear
+cd sprint
+cd src
+cd 
+make
+ls
+cd sprint
+make
+ls
+cd bin
+./client
+clear
+ls
+cd ..
+cd bin
+clear
+ls
+./client
+clear
+./client
+cd sprint
+cd src
+ls
+rm serverMain.cpp
+vi serverMain.cpp
+rm .*.swp
+vi serverMain.cpp
+cd ..
+ls
+cd bin
+./server
+clear
+cd ..
+ls
+mkdir data
+vi data
+ls
+rmdir data
+mkdir data
+cd data
+vi users
+cd bin
+cd ..
+cd bin
+clear
+ls
+./server
+clear
+./server
+clear
+cd sprint
+cd bin
+clear
+./client
+clear
+./client
+clear
+clear
+ls
+cd sprint
+ls
+mkdir make
+mv Makefile make
+ls
+cd make
+make
+ls
+make
+mv Makefile ./
+ls
+mv Makefile ./sprint
+ls
+cd
+ls
+cd sprint
+ls
+cd make
+ls
+mv sprint Makefile
+ls
+vi Makefile
+mv Makefile ..
+ls
+cd ..
+ls
+clear
+make
+clear
+./server /obj
+./server/obj
+clear
+cd bin
+ls
+./server
+clear
+cd ..
+ls
+cd src
+ls
+vi server.cpp
+vi serverMain.cpp
+clear
+mkdir unitTest
+cd unit unitTest
+touch main.cpp util.cpp util.hpp Makefile
+ls
+rm util.cpp
+rm util.hpp
+rm main.cpp
+rm Makefile
+cd unitTest
+touch main.cpp util.cpp util.hpp Makefile
+ls
+vi main.cpp
+vi util.hpp
+vi util.cpp
+vi Makefile
+make
+clear
+ls
+./main
+make clean
+clear
+curl https://raw.githubusercontent.com/mity/acutest/master/include/acutest.h>acutest.hpp
+vi test_unit.cpp
+vi Makefile
+make clean
+make
+ls
+vi Makefile
+clear
+ls
+vi Makefile
+make
+vi Makefile
+ls
+vi Makefile
+ls
+vi main.cpp
+clear
+ls
+vi Makefile
+make test_unit
+clear
+ls
+make test_unit
+vi test_unit.cpp
+make test_unit
+vi test_unit.cpp
+make test_unit
+vi test_unit.cpp
+make test_unit
+clear
+make test_unit
+make
+ls
+./test_unit
+./test_unit -v
+clear
+ls
+vi test_unit.cpp
+cd 
+cd sprint
+ls
+cd src
+cd obj
+cd ..
+cd obj
+ls
+cd ..
+tree
+cd sprint
+vi Makefile
+make
+vi Makefile
+make
+make server
+vi Makefile
+clear
+cd sprint
+cd bin
+./client
+clear
+cd ..
+vi Makefile
+tree
+clear
+cd sprint
+vi Makefile
+make
+vi Makefile
+vi src/clientMain.cpp
+vi Makefile
+make
+vi Makefile
+make
+cd ..
+tree
+clear
+cd sprint
+tree
+cd bin
+clear
+./server
+clear
+ls
+cd ..
+cd src
+vi clientMain.cpp
+cd ..
+tree
+vi src/serverMain.cpp
+clear
+cd sprint
+cd src
+vi serverMain.cpp
+cd sprint
+vi Makefile
+mkdir make
+ls
+mv Makefile make
+cd make
+make
+cd
+ls
+clear
+mkdir 31052022
+cd 31052022
+cp /tmp/bad_mem.c ./
+ls
+vi bad_mem.c
+gcc bad_mem.c
+./a.out
+valgrind ./a.out
+clear
+vi bad_mem.c
+gcc bad_mem.c
+./a.out
+valgrind ./a.out
+vi bad_mem.c
+gcc bad_mem.c
+valgrind ./a.out
+vi bad_mem.c
+gcc bad_mem.c
+valgrind ./a.out
+vi bad_mem.c
+gcc bad_mem.c
+valgrind ./a.out
+vi bad_mem.c
+gcc bad_mem.c
+valgrind ./a.out
+vi bad_mem.c
+gcc bad_mem.c
+valgrind ./a.out
+vi bad_mem.c
+gcc bad_mem.c
+valgrind ./a.out
+--leak-check=full
+./a.out --leak-check=full
+cd sprint
+cd make
+rm Makefile
+vi Makefile
+ls
+cd 31052022
+ls
+cd ..
+mkdir /31052022 Nani
+mkdir /31052022 nani
+cd 31052022
+mkdir nani
+mkdir /nani mouli
+rmdir nani
+cd
+clear
+cd sprint
+cd src
+ls
+rm client.cpp
+vi client.cpp
+rm clientMain.cpp
+vi clientMain.cpp
+rm server.cpp
+vi server.cpp
+rm serverMain.cpp
+vi serverMain.cpp
+ls
+cd ..
+clear
+ls
+cd inc
+ls
+rm client.h
+vi client.h
+rm server.h
+vi server.h
+ls
+cd
+clear
+cd sprint
+cd make
+make client
+clear
+cd sprint
+ls
+cd make
+make
+make server
+clear
+cd
+ls
+cd Nani
+cd
+rmdir Nani
+ls
+cd unitTest
+ls
+clear
+ls
+cd
+cd sprint
+ls
+clear
+cd sprint
+tree
+cp /tmp/basic.cpp .
+ls
+vi basic.cpp
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+./a.out
+ls
+vi basic.cpp
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+vi basic.cpp
+clear
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+vi basic.cpp
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+vi basic.cpp
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+vi basic.cpp
+clear
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+cp /tmp/basic.cpp .
+ls
+vi basic.cpp
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+vi basic.cpp
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+vi basic.cpp
+vi /inc/server
+vi /inc/server.h
+vi ./inc/server.h
+vi basic.cpp
+cp /tmp/basic.cpp .
+vi basic.cpp
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+clear
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+vi basic.cpp
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+clear
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+vi basic.cpp
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+clear
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+vi basic.cpp
+g++ -I ./inc obj/server.o basic.cpp -lcppunit
+vi basic.cpp
+clear
+clear
+cd sprint
+tree
+cd make
+make
+make server
+../make server
+clear
+../sprint/make/make server
+/sprint/make/make
+clear
+cd sprint
+cd make
+make client
+clear
+cd sprint
+ls
+cd src
+vi clientMain.cpp
+vi client.cpp
+vi server.cpp
+vi serverMain.cpp
+vi clientMain.cpp
+vi ../make Makefile
+vi /make Makefile
+cd ..
+vi /make/Makefile
+vi make/Makefile
+cd src
+vi ..make/Makefile
+vi ../make/Makefile
+cd ..
+cd src
+clear
+ls
+clear
+cd sprint/src
+ls
+vi clientMain.cpp
+clear
+cd sprint/src
+vi clientMain.cpp
+clear
+cd sprint/src
+cd
+vi sprint/src/clientMain.cpp
+cd sprint/src
+rm .*.swp
+cd
+vi sprint/src/clientMain.cpp
+cd
+clear
+cd sprint
+cd bin
+./client
+clear
+vi sprint/src/clientMain.cpp
+cd sprint
+tree
+./a.out
+clear
+vi basic.cpp
+ls
+cd src
+cd serverMain.cpp
+vi serverMain.cpp
+vi server.cpp
+clear
+git add .
+ls
+git add .
+git init
+git add.
+git add .
