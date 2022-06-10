@@ -12,7 +12,7 @@ class Client{
     public:
         Client(const char* ip, int port);
         int getSockfd();
-        void sendMessage(const char* message);
+        int sendMessage(const char* message);
         char* receiveMessage();
         void sync();
 };

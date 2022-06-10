@@ -15,8 +15,10 @@ int Client::getSockfd(){
     return sockfd;
 }
 
-void Client::sendMessage(const char* message){
-    send(sockfd, message, strlen(message), 0);
+int Client::sendMessage(const char* message){
+   int ret;
+   ret=send(sockfd, message, strlen(message), 0);
+   return ret;
 }
 
 char* Client::receiveMessage(){

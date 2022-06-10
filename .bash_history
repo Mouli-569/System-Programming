@@ -1353,3 +1353,121 @@ git add .
 git init
 git add.
 git add .
+git commit -m "Mouli"
+git push -u origin main
+cd sprint/src
+ls
+cd ..
+cd make
+make
+make server
+clear
+cd sprint/make
+make client
+clear
+cd sprint
+tree
+vi basic.cpp
+clear
+ls
+clear
+cd sprint
+ls
+./a.out
+clear
+cd sprint
+cd bin
+./client
+clear
+clear
+cd sprint
+ls
+./a.out
+./bin/server
+clear
+./bin/server
+clear
+./bin/server
+clear
+cd make
+make server
+clear
+make server
+clear
+cd ..
+vi src/clientMain.cpp
+vi src/client.cpp
+vi src/server.cpp
+vi src/serverMain.cpp
+clear
+ls
+vi basic.cpp
+cd src
+vi server.cpp
+cd ..
+cd inc
+vi server.h
+vi client.h
+cd ..
+cd src
+vi client.cpp
+cd ..
+cd make
+make
+cd ..
+cd src
+vi client.cpp
+cd ..
+cd inc
+vi client.h
+cd ..
+cd make
+make
+cd ..
+vi basic.cpp
+cp basic.cpp basic1.cpp
+vi basic1.cpp
+cd ..
+cd sprint
+cd src
+clear
+vi clientMain.cpp
+cd ..
+vi basic1.cpp
+g++ -I inc/ obj/client.o basic1.cpp -lcppunit
+cd src
+cd ..
+cd inc
+vi client.h
+cd ..
+vi basic1.cpp
+g++ -I inc/ obj/client.o basic1.cpp -lcppunit
+ls
+./a.out
+clear
+./a.out
+cd
+clear
+cd sprint
+ls
+./bin/client
+clear
+./bin/client
+clear
+./bin/client
+clear
+cd make
+clear
+make client
+clear
+:q
+make server
+clear
+make server
+clear
+cd sprint
+ls
+cd src
+vi client.cpp
+cd ..
+cd

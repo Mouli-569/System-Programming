@@ -3,7 +3,7 @@
   <FailedTests></FailedTests>
   <SuccessfulTests>
     <Test id="1">
-      <Name>TestBasicServer::testacceptClient</Name>
+      <Name>TestBasicClient::testSendmsg</Name>
     </Test>
   </SuccessfulTests>
   <Statistics>

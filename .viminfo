@@ -18,11 +18,13 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1654234963,,"q"
+|2,0,1654855148,,"q"
+:wq
+|2,0,1654785696,,"wq"
+:wqii
+|2,0,1654785375,,"wqii"
 :q!
 |2,0,1654230313,,"q!"
-:wq
-|2,0,1654158583,,"wq"
 :%w !pbcopy
 |2,0,1652871863,,"%w !pbcopy"
 :%y"+
@@ -84,254 +86,288 @@ $
 |3,0,36,0,1,0,1653971619,"server"
 
 # File marks:
-'0  36  0  ~/sprint/src/server.cpp
-|4,48,36,0,1654237248,"~/sprint/src/server.cpp"
-'1  66  31  ~/sprint/src/serverMain.cpp
-|4,49,66,31,1654234963,"~/sprint/src/serverMain.cpp"
-'2  18  0  ~/sprint/basic.cpp
-|4,50,18,0,1654234923,"~/sprint/basic.cpp"
-'3  7  8  ~/sprint/src/clientMain.cpp
-|4,51,7,8,1654234405,"~/sprint/src/clientMain.cpp"
-'4  10  12  ~/sprint/src/clientMain.cpp
-|4,52,10,12,1654230749,"~/sprint/src/clientMain.cpp"
-'5  10  12  ~/sprint/src/clientMain.cpp
-|4,53,10,12,1654230749,"~/sprint/src/clientMain.cpp"
-'6  17  28  ~/sprint/src/clientMain.cpp
-|4,54,17,28,1654230632,"~/sprint/src/clientMain.cpp"
-'7  17  28  ~/sprint/src/clientMain.cpp
-|4,55,17,28,1654230632,"~/sprint/src/clientMain.cpp"
-'8  17  28  ~/sprint/src/clientMain.cpp
-|4,56,17,28,1654230313,"~/sprint/src/clientMain.cpp"
-'9  17  28  ~/sprint/src/clientMain.cpp
-|4,57,17,28,1654230313,"~/sprint/src/clientMain.cpp"
+'0  21  13  ~/sprint/src/client.cpp
+|4,48,21,13,1654855148,"~/sprint/src/client.cpp"
+'1  41  44  ~/sprint/basic1.cpp
+|4,49,41,44,1654785696,"~/sprint/basic1.cpp"
+'2  15  10  ~/sprint/inc/client.h
+|4,50,15,10,1654785641,"~/sprint/inc/client.h"
+'3  49  37  ~/sprint/basic1.cpp
+|4,51,49,37,1654785490,"~/sprint/basic1.cpp"
+'4  49  37  ~/sprint/basic1.cpp
+|4,52,49,37,1654785490,"~/sprint/basic1.cpp"
+'5  7  8  ~/sprint/src/clientMain.cpp
+|4,53,7,8,1654785452,"~/sprint/src/clientMain.cpp"
+'6  63  47  ~/sprint/basic1.cpp
+|4,54,63,47,1654785396,"~/sprint/basic1.cpp"
+'7  63  47  ~/sprint/basic1.cpp
+|4,55,63,47,1654785396,"~/sprint/basic1.cpp"
+'8  63  47  ~/sprint/basic1.cpp
+|4,56,63,47,1654785396,"~/sprint/basic1.cpp"
+'9  63  47  ~/sprint/basic1.cpp
+|4,57,63,47,1654785396,"~/sprint/basic1.cpp"
 
 # Jumplist (newest first):
--'  36  0  ~/sprint/src/server.cpp
-|4,39,36,0,1654237248,"~/sprint/src/server.cpp"
--'  17  0  ~/sprint/src/server.cpp
-|4,39,17,0,1654234969,"~/sprint/src/server.cpp"
--'  66  31  ~/sprint/src/serverMain.cpp
-|4,39,66,31,1654234963,"~/sprint/src/serverMain.cpp"
--'  66  31  ~/sprint/src/serverMain.cpp
-|4,39,66,31,1654234963,"~/sprint/src/serverMain.cpp"
--'  18  0  ~/sprint/src/serverMain.cpp
-|4,39,18,0,1654234952,"~/sprint/src/serverMain.cpp"
--'  18  0  ~/sprint/src/serverMain.cpp
-|4,39,18,0,1654234952,"~/sprint/src/serverMain.cpp"
--'  18  0  ~/sprint/basic.cpp
-|4,39,18,0,1654234923,"~/sprint/basic.cpp"
--'  18  0  ~/sprint/basic.cpp
-|4,39,18,0,1654234923,"~/sprint/basic.cpp"
--'  18  0  ~/sprint/basic.cpp
-|4,39,18,0,1654234923,"~/sprint/basic.cpp"
--'  18  0  ~/sprint/basic.cpp
-|4,39,18,0,1654234923,"~/sprint/basic.cpp"
--'  35  0  ~/sprint/basic.cpp
-|4,39,35,0,1654234710,"~/sprint/basic.cpp"
--'  35  0  ~/sprint/basic.cpp
-|4,39,35,0,1654234710,"~/sprint/basic.cpp"
--'  35  0  ~/sprint/basic.cpp
-|4,39,35,0,1654234710,"~/sprint/basic.cpp"
--'  35  0  ~/sprint/basic.cpp
-|4,39,35,0,1654234710,"~/sprint/basic.cpp"
+-'  21  13  ~/sprint/src/client.cpp
+|4,39,21,13,1654855148,"~/sprint/src/client.cpp"
+-'  41  44  ~/sprint/basic1.cpp
+|4,39,41,44,1654785696,"~/sprint/basic1.cpp"
+-'  41  44  ~/sprint/basic1.cpp
+|4,39,41,44,1654785696,"~/sprint/basic1.cpp"
+-'  49  37  ~/sprint/basic1.cpp
+|4,39,49,37,1654785655,"~/sprint/basic1.cpp"
+-'  49  37  ~/sprint/basic1.cpp
+|4,39,49,37,1654785655,"~/sprint/basic1.cpp"
+-'  15  10  ~/sprint/inc/client.h
+|4,39,15,10,1654785641,"~/sprint/inc/client.h"
+-'  15  10  ~/sprint/inc/client.h
+|4,39,15,10,1654785641,"~/sprint/inc/client.h"
+-'  15  10  ~/sprint/inc/client.h
+|4,39,15,10,1654785641,"~/sprint/inc/client.h"
+-'  15  10  ~/sprint/inc/client.h
+|4,39,15,10,1654785641,"~/sprint/inc/client.h"
+-'  49  37  ~/sprint/basic1.cpp
+|4,39,49,37,1654785490,"~/sprint/basic1.cpp"
+-'  49  37  ~/sprint/basic1.cpp
+|4,39,49,37,1654785490,"~/sprint/basic1.cpp"
+-'  49  37  ~/sprint/basic1.cpp
+|4,39,49,37,1654785490,"~/sprint/basic1.cpp"
+-'  49  37  ~/sprint/basic1.cpp
+|4,39,49,37,1654785490,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785467,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785467,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785467,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785467,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785467,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785467,"~/sprint/basic1.cpp"
 -'  7  8  ~/sprint/src/clientMain.cpp
-|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
 -'  7  8  ~/sprint/src/clientMain.cpp
-|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
 -'  7  8  ~/sprint/src/clientMain.cpp
-|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
 -'  7  8  ~/sprint/src/clientMain.cpp
-|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
 -'  7  8  ~/sprint/src/clientMain.cpp
-|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
 -'  7  8  ~/sprint/src/clientMain.cpp
-|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
 -'  7  8  ~/sprint/src/clientMain.cpp
-|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
 -'  7  8  ~/sprint/src/clientMain.cpp
-|4,39,7,8,1654234405,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654232228,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
--'  10  12  ~/sprint/src/clientMain.cpp
-|4,39,10,12,1654230749,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230632,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230338,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654230313,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
--'  17  28  ~/sprint/src/clientMain.cpp
-|4,39,17,28,1654229615,"~/sprint/src/clientMain.cpp"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
--'  14  11  ~/sprint/make/Makefile
-|4,39,14,11,1654158583,"~/sprint/make/Makefile"
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
+-'  7  8  ~/sprint/src/clientMain.cpp
+|4,39,7,8,1654785452,"~/sprint/src/clientMain.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785396,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785396,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785396,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785396,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785396,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785396,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785396,"~/sprint/basic1.cpp"
+-'  63  47  ~/sprint/basic1.cpp
+|4,39,63,47,1654785396,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785042,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785040,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785040,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785040,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785040,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785040,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785040,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785040,"~/sprint/basic1.cpp"
+-'  1  0  ~/sprint/basic1.cpp
+|4,39,1,0,1654785040,"~/sprint/basic1.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
+-'  42  0  ~/sprint/basic.cpp
+|4,39,42,0,1654784998,"~/sprint/basic.cpp"
 
 # History of marks within files (newest to oldest):
 
-> ~/sprint/src/server.cpp
-	*	1654234985	0
-	"	36	0
-	^	53	1
-	.	53	0
-	+	53	0
+> ~/sprint/src/client.cpp
+	*	1654855146	0
+	"	21	13
+	^	21	14
+	.	19	2
+	+	55	0
+	+	18	45
+	+	20	49
+	+	21	13
+	+	19	2
 
-> ~/sprint/src/serverMain.cpp
-	*	1654234961	0
-	"	66	31
-	^	87	1
-	.	87	0
-	+	73	16
-	+	71	0
-	+	74	5
-	+	75	0
-	+	81	1
-	+	82	0
-	+	87	0
+> ~/sprint/basic1.cpp
+	*	1654785693	0
+	"	41	44
+	^	41	45
+	.	41	44
+	+	16	15
+	+	21	20
+	+	23	37
+	+	21	21
+	+	23	38
+	+	21	20
+	+	23	37
+	+	24	27
+	+	33	19
+	+	39	32
+	+	37	9
+	+	41	47
+	+	47	19
+	+	49	29
+	+	51	19
+	+	57	47
+	+	49	37
+	+	41	44
+
+> ~/sprint/inc/client.h
+	*	1654785639	0
+	"	15	10
+	^	15	11
+	.	15	10
+	+	18	1
+	+	15	10
+
+> ~/sprint/src/clientMain.cpp
+	*	1654785448	0
+	"	7	8
+	^	17	29
+	.	11	37
+	+	27	0
+	+	2	0
+	+	7	98
+	+	9	36
+	+	11	37
 
 > ~/sprint/basic.cpp
-	*	1654234921	0
-	"	18	0
+	*	1654784995	0
+	"	42	0
 	^	49	30
 	.	49	29
 	+	16	18
@@ -402,16 +438,32 @@ $
 	+	41	19
 	+	49	29
 
-> ~/sprint/src/clientMain.cpp
-	*	1654234400	0
-	"	7	8
-	^	17	29
-	.	11	37
-	+	27	0
-	+	2	0
-	+	7	98
-	+	9	36
-	+	11	37
+> ~/sprint/inc/server.h
+	*	1654784427	0
+	"	20	1
+	^	20	2
+	.	20	1
+	+	20	1
+
+> ~/sprint/src/server.cpp
+	*	1654784413	0
+	"	30	1
+	^	53	1
+	.	53	0
+	+	53	0
+
+> ~/sprint/src/serverMain.cpp
+	*	1654784179	0
+	"	66	31
+	^	87	1
+	.	87	0
+	+	73	16
+	+	71	0
+	+	74	5
+	+	75	0
+	+	81	1
+	+	82	0
+	+	87	0
 
 > ~/sprint/make/Makefile
 	*	1654158580	0
@@ -439,20 +491,6 @@ $
 	*	1654158204	0
 	"	1	0
 
-> ~/sprint/src/client.cpp
-	*	1654156477	0
-	"	24	0
-	^	53	1
-	.	53	0
-	+	53	0
-
-> ~/sprint/inc/server.h
-	*	1654146945	0
-	"	20	1
-	^	20	2
-	.	20	1
-	+	20	1
-
 > /inc/server.h
 	*	1654146866	0
 	"	1	0
@@ -460,13 +498,6 @@ $
 > /inc/server
 	*	1654146850	0
 	"	1	0
-
-> ~/sprint/inc/client.h
-	*	1654091850	0
-	"	18	1
-	^	18	2
-	.	18	1
-	+	18	1
 
 > ~/31052022/bad_mem.c
 	*	1654005601	0
